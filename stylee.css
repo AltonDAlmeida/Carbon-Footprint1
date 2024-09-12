@@ -1,0 +1,405 @@
+body{
+    background-image: url(/img/coalmines.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+header{
+    background-color: rgb(185, 185, 185 ,0.5);
+    position:relative;
+    top: 10px;
+    margin: 10px;
+}
+ 
+#div1 {
+    border: solid;
+    box-shadow: 3px 3px 5px;
+    
+}
+h1{
+    text-align: center;
+    margin-left: 10px;
+    font-size: 40px;
+}
+#logo{
+    width: 93px;
+    float: right;
+
+}
+#a1{
+    color: black;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#a1:hover{
+    text-decoration: underline;
+}
+.navbar ul{
+    background-color: rgb(185, 185, 185 ,0.2);
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    text-align: center;
+}
+.navbar a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+#home:hover,#aboutus:hover,#database:hover,#signup:hover,#signin:hover{
+    background-color: rgba(203, 203, 203, 0.5);
+}
+
+.navbar a:hover{
+    color:none;
+}
+.navbar li{
+    float: left;
+}
+
+
+
+body {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+#div2 {
+    
+    position: relative;
+    height: 500px;
+    width: 600px;
+    overflow:visible;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 300px;
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+
+.carousel-slide {
+    display: flex;
+    width: 500%;
+    object-fit: contain;
+    transition: transform 0.4s ease-in-out;
+}
+
+.carousel-slide img{
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.prev {
+    left: 15px;
+    margin-bottom: 50px;
+}
+
+.next {
+    right: 15px;
+    margin-bottom: 50px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+.div3{
+    
+    background-color: rgba(0, 0, 0, 0.5); /* 50% opacity for black background */
+    color: white; /* Text remains opaque */
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 30px;
+      
+}
+h1, form, label, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container styling */
+.signup {
+    background-color: #202020;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 65px;
+    color: #f1f1f1;
+}
+
+/* Form styling */
+.signup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Label styling */
+.signup-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Input styling */
+.signup-form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+}
+
+/* Button styling */
+.signup-button {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 15px 20px; /* Padding */
+    text-align: center; /* Center-align text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Inline-block for spacing */
+    font-size: 16px; /* Font size */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Button hover effect */
+.signup-button:hover {
+    background-color: #3c9440; /* Darker green background on hover */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: rgb(33, 32, 32);
+    position:relative;
+    width: 100%;
+    
+}
+#div4{
+    border: solid;
+}
+.footerword{
+    color: white;
+    text-align: center;
+}
+#afooter{
+    color: white;
+    text-decoration: none;
+}
+.pfooter{
+    color: white;
+}
+.navbar2 ul{
+    background-color: rgb(185, 185, 185 ,0.2);
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar2 a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+#websitepolicy, #help, #contactus, #terms, #feedback, #webinfo, #disclam{
+    color: white;
+
+}
+
+#websitepolicy:hover{
+    background-color: rgb(33, 32, 32);
+}
+#help:hover{
+    background-color: rgb(33, 32, 32);
+}
+#contactus:hover{
+    background-color: rgb(33, 32, 32);
+}
+#terms:hover{
+    background-color: rgb(33, 32, 32);
+}
+#feedback:hover{
+    background-color: rgb(33, 32, 32);
+}
+#webinfo:hover{
+    background-color: rgb(33, 32, 32);
+}
+#disclam:hover{
+    background-color: rgb(33, 32, 32);
+}
+.navbar2 li{
+    float: left;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 18px;
+    text-align: left;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+th, td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #302b2b;
+    color: white;
+    text-transform: uppercase;
+}
+tr:hover {
+    background-color: #f1f1f1;
+}
+td {
+    color: #333;
+}
+caption {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.divend{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: auto; 
+
+
+}
+
+main{
+    margin: 30px;
+}
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.signin-container {
+    background-color: #202020;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 65px;
+    color: #f1f1f1;
+}
+
+.signin-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #007BFF;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.remember-me input {
+    margin-right: 5px;
+}
+
+.signin-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.signin-btn:hover {
+    background-color: #3c9440;
+}
+
+.forgot-password {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.forgot-password a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
