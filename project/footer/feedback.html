@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Coal Coders
+        </title>
+        <meta charset="UTF-8"
+        name="viewport" content="width=device-width, initial-scale=1.0"
+        name="Coal Coders" content="Analyse carbon footprint of coal mines of India"
+        http-equiv="refresh" content="60">
+        <link rel="stylesheet" href="/stylee.css">
+    </head>
+
+    <body>
+        <style>
+            .div3{
+                margin-right: 30px;
+                background-color: rgba(0, 0, 0, 0);
+            }
+
+/* General form styling */
+form.fb-ctr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 40%;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Form group styling */
+.frm-grp {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+/* Input and textarea styling */
+.frm-txt, .frm-txt-wrap textarea, .wf-btn, select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  background-color: rgb(30, 30, 30);
+  color: white;
+}
+
+/* Dropdown select styling */
+select option {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+/* Submit button styling */
+.wf-btn {
+  background-color: #314fc9;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.wf-btn:hover {
+  background-color: #223688;
+}
+
+/* Label styling */
+label {
+  margin-bottom: 5px;
+}
+
+/* Captcha section */
+.cap {
+  width: 100%;
+}
+
+.cap img {
+  display: block;
+  margin: 10px 0;
+}
+
+.desc {
+  font-size: 12px;
+  color: #ccc;
+}
+
+/* Summary and detail styling */
+summary {
+  color: white;
+  cursor: pointer;
+}
+
+details {
+  color: white;
+}
+
+
+
+        </style>
+    <header> <div id="div1"><a id="a2" href="/sih.html" target="_self" title="logo">
+        <img id="logo" src="/img/logo.png" alt="logo" ></a>
+        <span><h1 ><a id="a1" href="/sih.html" target="_self" title="Coal Coders" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Carbon Footprint&nbsp;</a></h1></span>
+        <nav class="navbar">
+            <ul>
+                <li><a id="home" href="/sih.html"> Home</a></li>
+                <li><a id="aboutus" href="/aboutus.html"> About Us</a></li>
+                <li><a id="database" href="/database.html"> Database</a></li>
+                <li><a id="signup" href="/signup.html"> Signup</a></li>
+                <li><a id="signin" href="/signin.html"> Signin</a></li>
+            </ul>
+
+        </nav>
+        </div>
+          </header>
+
+          <main class="div3">
+
+            <form class="fb-ctr" data-drupal-selector="webform-submission-feedback-add-form" action="/index.php/en/feedback" method="post" id="webform-submission-feedback-add-form" accept-charset="UTF-8" data-drupal-form-fields="edit-feedback-topic,edit-name,edit-email,edit-feedback,edit-actions-submit,edit-captcha-response">
+                <div class="frm-grp js-itm frm-itm js-slct frm-slct js-itm-fdbk frm-itm-fdbk">
+                  <label for="edit-feedback-topic" class="js-req frm-req">Topic</label>
+                  <select class="js-wf-s2 wf-s2 frm-sel req s2-hide" data-drupal-selector="edit-feedback-topic" id="edit-feedback-topic" name="feedback_topic" required="required" aria-required="true" style="width: 100%;" tabindex="-1" aria-hidden="true">
+                    <option value="" selected="selected">- Select -</option>
+                    <option value="15">Content issue</option>
+                    <option value="16">Design issue</option>
+                    <option value="17">Server issue</option>
+                  </select>
+                  <span class="s2 s2-ctr s2-dflt s2-blw" dir="ltr" style="width: 100%;">
+                    <span class="sel">
+                      <span class="s2-sel s2-sel-sngl" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-edit-feedback-topic-container">
+ 
+                        <span class="s2-sel__arr" role="presentation"><b role="presentation"></b></span>
+                      </span>
+                    </span>
+                    <span class="drp-wrap" aria-hidden="true"></span>
+                  </span>
+                </div>
+              
+                <div class="frm-grp js-itm frm-itm js-txt frm-txt js-itm-name frm-itm-name">
+                  <label for="edit-name" class="js-req frm-req">Name</label>
+                  <input autocomplete="off" data-drupal-selector="edit-name" type="text" id="edit-name" name="name" value="" size="60" maxlength="255" class="frm-txt req" required="required" aria-required="true">
+                </div>
+              
+                <div class="frm-grp js-itm frm-itm js-eml frm-eml js-itm-email frm-itm-email">
+                  <label for="edit-email" class="js-req frm-req">Email</label>
+                  <input class="frm-txt req" autocomplete="off" data-drupal-selector="edit-email" type="email" id="edit-email" name="email" value="" size="60" maxlength="254" required="required" aria-required="true">
+                </div>
+              
+                <div class="frm-grp js-itm frm-itm js-txt frm-txt js-itm-fdbk frm-itm-fdbk">
+                  <label for="edit-feedback" class="js-req frm-req">Feedback</label>
+                  <div class="frm-txt-wrap">
+                    <textarea autocomplete="off" data-drupal-selector="edit-feedback" id="edit-feedback" name="feedback" rows="5" cols="60" class="frm-txt req" required="required" aria-required="true"></textarea>
+                  </div>
+                </div>
+              
+                <div class="frm-grp frm-acts wf-acts js-wrap frm-wrap" data-drupal-selector="edit-actions" id="edit-actions">
+                  <input class="wf-btn btn btn-pri js-sub frm-sub" data-drupal-selector="edit-actions-submit" type="submit" id="edit-actions-submit" name="op" value="Submit">
+                </div>
+              
+                <input autocomplete="off" data-drupal-selector="form-ckpy7o7a9ubvpoldm8zgvcfk9s-lc5ndima7aegbwlw" type="hidden" name="form_build_id" value="form-ckpY7o7A9UbVPoLDM8ZgvCfK9S-Lc5Ndima7aegbwLw">
+                <input data-drupal-selector="edit-webform-submission-feedback-add-form" type="hidden" name="form_id" value="webform_submission_feedback_add_form">
+              
+                <details class="cap js-wrap frm-wrap" open="open">
+                  <summary role="button" aria-expanded="true" aria-pressed="true">CAPTCHA</summary>
+                  <div class="det-wrap">
+                    <br>
+                    <div class="det-desc">This question is for testing whether or not you are a human visitor and to prevent automated spam submissions.</div>
+                    <input data-drupal-selector="edit-captcha-sid" type="hidden" name="captcha_sid" value="56901">
+                    <input data-drupal-selector="edit-captcha-token" type="hidden" name="captcha_token" value="7bc0469402b92a0cb10145836aae0f9e">
+                    <img data-drupal-selector="edit-captcha-image" src="/index.php/en/image-captcha-generate/56901/1726604006" width="216" height="60" alt="Image CAPTCHA" title="Image CAPTCHA" typeof="foaf:Image">
+                    <div class="js-itm frm-itm js-txt frm-txt js-itm-captcha frm-itm-captcha">
+                      <label for="edit-captcha-response" class="js-req frm-req">What code is in the image?</label>
+                      <input autocomplete="off" data-drupal-selector="edit-captcha-response" aria-describedby="edit-captcha-response--description" type="text" id="edit-captcha-response" name="captcha_response" value="" size="15" maxlength="128" class="frm-txt req" required="required" aria-required="true">
+                      <div id="edit-captcha-response--description" class="desc">Enter the characters shown in the image.</div>
+                    </div>
+                  </div>
+                </details>
+              </form>
+              
+          
+</main>
+
+<footer>
+    <div class="divend">
+    <nav class="navbar2">
+        <ul>
+            <li><a id="websitepolicy" href="/footer/webpolicy.html"> Website Policy</a></li>
+            <li><a id="help" href="/footer/help.html"> Help</a></li>
+            <li><a id="contactus" href="/footer/contactus.html"> Contact Us</a></li>
+            <li><a id="terms" href="/footer/terms.html"> Terms And condition</a></li>
+            <li><a id="feedback" href="/footer/feedback.html"> Feedback</a></li>
+            <li><a id="webinfo" href="/footer/webinfo.html">Website Information Manager</a> </li>
+            <li><a id="disclaim" href="/footer/disclaimer.html">Disclaimer</a> </li>
+        </ul>
+
+    </nav>
+    </div>
+</footer>
+
+</body>
+</html>
